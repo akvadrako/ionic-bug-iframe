@@ -1,0 +1,11 @@
+{
+	"appId": "so.doubly.bug.iframe",
+	"appName": "bug-iframe",
+	"bundledWebRuntime": true,
+	"webDir": "www",
+	"plugins": {
+		"SplashScreen": {
+			"launchShowDuration": 0
+		}
+	}
+}

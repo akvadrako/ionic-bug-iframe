@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Frame</title>
+  </head>
+  <body style="background: red">
+    <script src="capacitor.js"></script>
+    <h1>Frame</h1>
+    <p></p>
+    <script>
+        document.querySelector('p').innerHTML = '...loading...'
+
+        Capacitor.Plugins.WebView.getServerBasePath().then(data => {
+            console.error('DATA', data)
+            document.querySelector('p').innerHTML = JSON.stringify(data)
+        }).catch(e => {
+            document.querySelector('p').innerHTML = 'ERROR'
+        })
+    </script>
+  </body>
+</html>

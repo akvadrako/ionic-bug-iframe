@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">bug-iframe</string>
+    <string name="title_activity_main">bug-iframe</string>
+    <string name="package_name">so.doubly.bug.iframe</string>
+    <string name="custom_url_scheme">so.doubly.bug.iframe</string>
+</resources>
